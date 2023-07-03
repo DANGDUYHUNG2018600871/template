@@ -1,0 +1,52 @@
+.demo-logo-vertical {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  /* Điều chỉnh chiều cao tùy ý */
+}
+
+.demo-logo-vertical .logo-text {
+  margin-top: 10px;
+  /* Điều chỉnh khoảng cách tùy ý */
+}
+
+@media screen and (max-width: 767px) {
+
+  /* CSS cho màn hình mobile */
+  .demo-logo-vertical .logo-text {
+    margin-top: 5px;
+    /* Điều chỉnh khoảng cách tùy ý trên màn hình mobile */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+  /* CSS cho màn hình tablet */
+  .demo-logo-vertical .logo-text {
+    margin-top: 15px;
+    /* Điều chỉnh khoảng cách tùy ý trên màn hình tablet */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  /* CSS cho màn hình desktop */
+  .demo-logo-vertical .logo-text {
+    margin-top: 20px;
+    /* Điều chỉnh khoảng cách tùy ý trên màn hình desktop */
+  }
+}
+.ant-pagination {
+  width: 50%;
+  margin: auto;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24%;
+}
+.chartuser{
+  display: flex;
+  gap:10px
+}
